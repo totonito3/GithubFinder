@@ -1,70 +1,68 @@
-# Getting Started with Create React App
+# Github Finder
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Github Finder is a React application that allows users to search for Github profiles and view their repositories. 
 
-## Available Scripts
+## Features
+- Search for Github profiles by username
+- View profile information such as name, bio, location, website, followers, following, etc.
+- View user's repositories
 
-In the project directory, you can run:
+## Technologies Used
+- React
+- React Router
+- Context API
+- Fetch API
+- GitHub API
 
-### `npm start`
+## Usage
+To use the application, simply enter a username in the search bar and click the search button. The application will then display the user's profile information and repositories
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Getting Started
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+To get started with the GetFeedback App on your local machine, follow these steps:
 
-### `npm test`
+1. Clone the repository:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+   ```bash
+   git clone https://github.com/totonito3/GithubFinder
 
-### `npm run build`
+	2.	Change directory to the project folder:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+cd getfeedback-app
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+	3.	Install dependencies:
 
-### `npm run eject`
+npm install
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+	4.	Start the development server:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+npm start
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+The app should now be running locally at http://localhost:3000/.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Usage
 
-### Code Splitting
+	1.	Access the app in your browser.
+	2.	Submit feedback by filling out the form and selecting a rating.
+	3.	View all submitted feedbacks on the main page.
+	4.	Edit or delete feedback entries as needed.
+	5.	Observe the average rating displayed on the page.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Contributing
 
-### Analyzing the Bundle Size
+Contributions are welcome! If you’d like to enhance the GetFeedback App, please follow these steps:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+	1.	Fork the repository.
+	2.	Create a new branch for your feature: git checkout -b feature-name.
+	3.	Make your changes and commit them: git commit -m 'Add some feature'.
+	4.	Push to the branch: git push origin feature-name.
+	5.	Submit a pull request with a detailed description of your changes.
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Acknowledgements
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Feel free to open an issue if you encounter any problems or have suggestions for improvements. Happy feedback collecting!
